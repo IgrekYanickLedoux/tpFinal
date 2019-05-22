@@ -1,0 +1,618 @@
+.parallax_Contact {
+    /* L’image du Parallax */
+    background-image: url("../img/BG_Desktop.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_Contact > .row {
+    height: 100%
+}
+
+.text-orange{
+    color: rgba(248,153,28,1);
+}
+
+.text-grisfonce{
+    color: rgba(35, 31, 32, 1);
+}
+
+.bgRouge{
+    background-color: red;
+    height: 350px;
+}
+
+.bgVert{
+    background-color: green;
+    height: 350px;
+}
+
+
+
+h1 {
+    font-size: 26pt;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 30px;
+    color: rgba(35,31,32,1);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 35pt;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 45px;
+    color: rgba(35,31,32,1);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.text-75pts{
+    font-size: 75pt;
+}
+
+.interligne-30 {
+    line-height: 30px;
+}
+
+h3 {
+    font-size: 26pt;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 34px;
+    color: rgba(35,31,32,1);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+h4 {
+    font-size: 16pt;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 21px;
+    color: rgba(35,31,32,1);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 14pt;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 20px;
+    color: rgba(35,31,32,1);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: 13pt;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 19px;
+    color: rgba(35,31,32,1);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-alignCentre{
+    text-align: center;
+}
+
+
+strong{
+    font-family: "Franklin Gothic Heavy";
+}
+
+p{
+    font-size: 13pt;
+    font-family: "Franklin Gothic Book";
+    line-height: 22px;
+    color: rgba(35,31,32,1);
+    text-align: justify;
+}
+
+.petitTexte{
+    font-size: 8pt;
+}
+
+.moyenTexte{
+    font-size: 10pt;
+}
+
+.grosTexte{
+    font-size: 20pt;
+    line-height: 8px;
+}
+
+.grosTexte-28{
+    font-size: 28pt;
+    line-height: 8px;
+}
+
+
+
+
+.boutonContourBlanc {
+    border-radius: 4px;
+    border-color: rgba(255,255,255,1);
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(0,0,0,0);
+    color: rgba(35, 31, 32, 1);
+    padding: 2px 12px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+}
+
+.boutonPlus {
+    border-radius: 4px;
+    border-color: rgba(255,255,255,1);
+    border-style: solid;
+    border-width: 0px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    padding: 1px 1px;
+    font-size: 24px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+}
+
+.boutonContourBlancOrange {
+    border-radius: 4px;
+    border-color: rgba(255,255,255,1);
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(0,0,0,0);
+    color: rgba(248,152,29,1);
+    padding: 2px 12px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+}
+
+.boutonContourNoir {
+    border-radius: 4px;
+    border-color: rgba(35, 31, 32, 1);
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(0,0,0,0);
+    color: rgba(35, 31, 32, 1);
+    padding: 2px 12px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+}
+
+.boutonContourNoirOrange {
+    border-radius: 4px;
+    border-color: rgba(35, 31, 32, 1);
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(0,0,0,0);
+    color: rgba(248,152,29,1);
+    padding: 2px 12px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+}
+
+.alignementVertical{
+    vertical-align: bottom;
+}
+
+.paddingDroite
+{
+    padding-right: 20px;
+}
+
+.paddingDroite-10
+{
+    padding-right: 10px;
+}
+
+.paddingGauche{
+    padding-left: 20px;
+}
+
+.paddingGauche-10
+{
+    padding-left: 10px;
+}
+
+.paddingTop
+{
+    padding-top: 35px;
+}
+
+.paddingTop-10
+{
+    padding-top: 10px;
+}
+
+.paddingTop-15
+{
+    padding-top: 15px;
+}
+
+.paddingTop-100
+{
+    padding-top: 100px;
+}
+
+.paddingTop-500
+{
+    padding-top: 500px;
+}
+
+.paddingBottom
+{
+    padding-bottom: 35px;
+}
+
+.paddingBottom-10
+{
+    padding-bottom: 10px;
+}
+
+.paddingBottom-15
+{
+    padding-bottom: 15px;
+}
+
+.Orange{
+    background-color: rgba(248,152,29,1);
+}
+
+.GrisFonce
+{
+    background-color: rgba(35, 31, 32, 1);
+}
+
+.GrisPale
+{
+    background-color: rgba(35, 31, 32, 0.05);
+}
+
+.bg_Accueil
+{
+    background-position: center;
+    background-image: url("../img/Background_Accueil.jpg");
+    height: 800px;
+    background-size: cover;
+    align-content: center;
+}
+
+h1 {
+    font-size: 26pt;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 30px;
+    color: rgba(35,31,32,1);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+/* Cellulaires */
+@media only screen and (max-width: 600px){
+    .bg_Accueil
+    {
+        background-position: center;
+        background-image: url("../img/Bg_Bois.jpg");
+        height: 100%;
+        background-size: cover;
+        align-content: center;
+    }
+}
+
+/* TABLETTES */
+@media screen and (min-width: 601px) and (max-width: 1199px) {
+    .bg_Accueil
+    {
+        background-position: center;
+        background-image: url("../img/Bg_Brique.jpg");
+        height: 100%;
+        background-size: cover;
+        align-content: center;
+    }
+}
+
+.bg_Footer
+{
+    background-position: center;
+    background-image: url("../img/Bg_Footer.jpg");
+    height: 100%;
+    background-size: cover;
+    align-content: center;
+}
+
+.bg_MockUp{
+    background-position: center;
+    background-image: url("../img/Background_MockUp.jpg");
+    height: 300px;
+    background-size: cover;
+    align-content: center;
+}
+
+.bg_Noir
+{
+    background-position: center;
+    background-image: url("../img/Bg_Noir.jpg");
+    height: 100%;
+    background-size: cover;
+    align-content: center;
+}
+
+.bg_Footer-50
+{
+    background-position: center;
+    background-image: url("../img/BG_Footer.jpg");
+    height: 25px;
+    background-size: cover;
+    align-content: center;
+}
+
+.bg_Plus
+{
+    background-position: center;
+    background-image: url("../img/Bg_+++.jpg");
+    height: 100%;
+    background-size: cover;
+    align-content: center;
+}
+
+.bg_GrisFonce-6
+{
+    height: 8px;
+    background-color: rgba(35, 31, 32, 1);
+}
+
+.bg_Orange-6
+{
+    height: 6px;
+    background-color: rgba(248,152,29,1);
+}
+
+.navbar {
+    background-color: rgba(35, 31, 32, 1);
+}
+.navbar .navbar-brand {
+    color: #f4f4f4;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: rgba(35, 31, 32, 1);
+}
+.navbar .navbar-text {
+    font-size: 14pt;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 12px;
+    color: rgba(35,31,32,1);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-text a {
+    font-size: 14pt;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 12px;
+    color: rgba(35,31,32,1);
+    text-align: left;
+    text-transform: uppercase;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    font-size: 14pt;
+    font-family: "Franklin Gothic Heavy";
+    line-height: 12px;
+    color: rgba(35,31,32,1);
+    text-align: left;
+    text-transform: uppercase;
+}
+.navbar .navbar-nav .nav-link {
+    color: #f4f4f4;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #818181;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #f8991c;
+}
+.navbar .navbar-toggle {
+    border-color: #8e44ad;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #8e44ad;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #f4f4f4;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #f4f4f4;
+}
+.navbar .navbar-link {
+    color: #f4f4f4;
+}
+.navbar .navbar-link:hover {
+    color: #f8991c;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #f4f4f4;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #f8991c;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #f8991c;
+        background-color: #8e44ad;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #f4f4f4;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #f8991c;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #f8991c;
+        background-color: #8e44ad;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #f4f4f4;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #f8991c;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #f8991c;
+        background-color: #8e44ad;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #f4f4f4;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #f8991c;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #f8991c;
+        background-color: #8e44ad;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #f4f4f4;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #f8991c;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #f8991c;
+    background-color: #8e44ad;
+}
+
+/* Container holding the image and the text */
+.espaceImage {
+    position: relative;
+    text-align: center;
+    color: deeppink;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.texteInvisible{
+    display: none;
+}
+.texteVisible{
+    display: block;
+}
+
+
+
+/**THE SAME CSS IS USED IN ALL 3 DEMOS**/
+/**gallery margins**/
+ul.gallery{
+    margin-left: 3vw;
+    margin-right:3vw;
+}
+
+.zoom {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+}
+
+.zoom:hover,
+.zoom:active,
+.zoom:focus {
+    /**adjust scale to desired size,
+    add browser prefixes**/
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    position:relative;
+    z-index:100;
+}
+
+/**To keep upscaled images visible on mobile,
+increase left & right margins a bit**/
+@media only screen and (max-width: 768px) {
+    ul.gallery {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+
+    /**TIP: Easy escape for touch screens,
+    give gallery's parent container a cursor: pointer.**/
+    .DivName {cursor: pointer}
+}
+
+.modal-backdrop {
+    background-color: rgba(35, 31, 32, 1);}
